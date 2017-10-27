@@ -1,0 +1,155 @@
+@blue: rgb(226, 229, 236);
+@grey: rgb(178,179,182);
+
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header, footer {
+	background-color: @blue;
+}
+
+article, #two{
+	border-radius: 5px;
+}
+
+header{
+	padding: 5% 0;
+    text-align: center;
+}
+
+section{
+	max-width: 60%;
+    margin: auto;
+    padding: 0px 40px;
+	clear:both;
+}
+ 
+img{
+	width: 100%;
+}
+
+p{
+	display: inline-block;
+}
+
+
+
+figure{
+	display: inline-block;
+	width: 100%;
+	margin: 5% 5% 10% 0;
+	vertical-align: top;
+	font-size: 14px;
+
+	figcaption{
+		font-weight:bolder;
+		margin-top: 5%;
+	}
+
+	div{
+		overflow-y: scroll;
+		max-height: 250px;
+		width: 100%;
+
+		@media only screen and (min-width: 600px){
+			max-height: 280px;
+		}
+	}
+
+	@media only screen and (min-width: 600px){
+		width: 40%;
+	    margin: 5% 5% 5% 0;
+	}
+}
+
+.fa{
+	font-size: 1.5em ;
+	margin-right: 1em;
+}
+
+footer{
+	background-color: @blue;
+	min-height: 350px;
+	text-align: center;
+	padding-bottom:30px;
+	
+	h2{
+	padding-top: 3em;
+	}
+
+	li div{
+		display: inline;
+	}
+
+	ul{
+	-webkit-padding-start: 0px !important;
+	
+		li{
+			list-style-type: none;
+			margin-top: 2%;
+		}
+	}
+}
+
+.mail{
+	font-weight: bold;
+}
+
+.border{
+	border: 5px solid @grey;
+}
+
+div img.border{
+	width: 93%;
+}
+
+#myphoto{
+	border-radius: 26px;
+    display: block;
+	margin: 1.5em auto;
+	width: 50%;
+	height:auto;
+
+	@media only screen and (min-width: 600px){
+		float:right;
+		width:20%;
+	}
+}
+
+.owl-carousel {
+	@media only screen and (min-width: 600px){
+		width:45%;
+		display:inline-block !important;
+		}
+	
+
+	.owl-carousel img{
+		margin-bottom: 1.5em;
+
+		@media only screen and (min-width: 600px){
+			margin-bottom: 1.5em;
+			max-width:600px;
+		}
+	}
+}
+
+h3{
+	padding-left: 5%;
+}
+
+@media only screen and (min-width: 600px){
+	#two{
+		width: 70%;
+		margin-top: 10%
+	}
+
+	#three {
+		width: 45%;
+		margin: 0 0 0 5%;
+		vertical-align: top;
+	}
+}

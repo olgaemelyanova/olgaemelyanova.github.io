@@ -1,0 +1,39 @@
+.popup{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.content{
+	width: 30%;
+    min-height: 350px;
+    position: absolute;
+    background-color: white;
+    left: 30%;
+    top: 20%;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.overflow{
+	background: black;
+	opacity:0.5;
+	position:absolute;
+	width: 100%;
+    height: 100%;
+}
+
+.price p{
+	font-size: 3em;
+}
+
+.price p:before{
+    content: "$";
+}
+
+.row div div{
+	margin-top: 30px;
+}

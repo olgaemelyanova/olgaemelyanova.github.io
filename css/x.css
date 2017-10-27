@@ -1,0 +1,138 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	padding:1.5em 0;
+    background-color: rgb(226, 229, 236);
+	text-align: center;
+}
+
+section{
+	max-width: 60%;
+    margin: auto;
+    padding: 0px 40px;
+	clear:both;
+}
+ 
+img{
+	width: 100%;
+}
+
+p{
+	display: inline-block;
+}
+
+.mail{
+	font-weight: bold;
+}
+
+article{
+	border-radius: 5px;
+}
+
+ul{
+	-webkit-padding-start: 0px !important;
+}
+ul li{
+	list-style-type: none;
+	margin: 0 2% 2% 0;
+}
+
+figure{
+	display: inline-block;
+	width: 100%;
+	margin: 5% 5% 10% 0;
+	vertical-align: top;
+}
+
+.fa{
+	font-size: 1.5em ;
+	margin-right: 1em;
+}
+
+footer{
+	background-color: rgb(226, 229, 236);
+	height: 350px;
+	text-align: center;
+}
+
+footer h2{
+	padding-top: 3em;
+}
+
+.portfolio figure div{
+	overflow-y: scroll;
+	height: 180px;
+	width: 100%;
+}
+
+#two{
+	border-radius: 5px;
+}
+
+.border{
+	border: 5px solid #b2b3b6;
+}
+
+div img.border{
+	width: 93%;
+}
+
+#myphoto{
+	border-radius: 26px;
+    display: block;
+	margin: 1.5em auto 1.5em auto;
+	width: 50%;
+	height:auto;
+}
+
+.owl-carousel img{
+	margin-bottom: 1.5em;
+}
+
+h3{
+	padding-left: 5%;
+}
+
+@media only screen and (min-width: 750px){
+	#myphoto{
+	float:right;
+	width:20%;
+	}
+	#two{
+		width: 70%;
+		margin-top: 10%
+	}
+	.owl-carousel {
+		width:45%;
+		display:inline-block !important;
+	}
+	#three {
+		width: 45%;
+		margin: 0 0 0 5%;
+		vertical-align: top;
+	}
+	img{
+		width:100%;
+	}
+
+	figure{
+	    width: 40%;
+	    margin: 5% 5% 5% 0;
+	}
+
+	.portfolio figure div{
+		height: 350px;
+	}
+	
+	.owl-carousel img{
+	margin-bottom: 1.5em;
+	max-width:600px;
+	}
+	li div{
+		display: inline;
+	}
+}

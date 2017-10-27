@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+header,
+footer {
+  background-color: #748CAB;
+  color:#0D1321;
+}
+
+article,
+#two {
+  border-radius: 5px;
+}
+
+header {
+  padding: 5% 0 3% 0;
+  height: 150px;
+  text-align: center;
+  background-image: url(images/red-square.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header span{
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 2px solid rgba(255,255,255, 1);
+	border-radius: 25px;
+	padding: 10px 15px;
+}
+
+section {
+  max-width: 60%;
+  margin: auto;
+  padding: 0px 40px 80px;
+  clear: both;
+}
+
+img {
+  width: 100%;
+}
+
+.anchor{
+	display: inline-block;
+	padding-top: 6em;
+}
+
+iframe {
+	border:0; 
+	width: 80vw;
+    height: 50vh;
+}
+
+.navigation{
+  height:80px;
+	background-color: #F0EBD8;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.4)
+}
+
+.f-nav{
+  position:fixed;
+  z-index:9999;
+  left:0;
+  top:0;
+  width:100%;
+}
+
+nav ul{
+	display: block;
+    margin: auto;
+    padding: 25px 5px 0px 5px;
+    text-align: center;
+}
+
+nav ul li{
+	list-style-type: none;
+	display:inline;
+	padding: 20px 5px;
+}
+
+.navigation a{
+	text-decoration: none;
+}
+
+.navigation a:visited{
+	color:#0D1321;
+}
+
+.navigation a:hover{
+	font-size: 120%; 
+}
+
+a{
+	text-decoration: underline;
+	font-weight: bold;
+	color:#000;
+}
+
+a:visited{
+	color: #551A8B;
+}
+
+a:hover{
+	background-color: yellow; 
+}
+
+p {
+  display: inline-block;
+}
+
+figure {
+  display: inline-block;
+  width: 100%;
+  margin: 5% 5% 10% 0;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+figure figcaption {
+  margin-top: 5%;
+}
+
+figure div {
+  overflow-y: scroll;
+  max-height: 250px;
+  width: 100%;
+}
+
+.fa {
+  font-size: 1.5em ;
+  margin-right: 1em;
+}
+footer {
+  min-height: 350px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+footer li div {
+  display: inline;
+}
+footer ul {
+  -webkit-padding-start: 0px !important;
+  margin-bottom: 4%;
+}
+footer ul li {
+  list-style-type: none;
+  margin-top: 2%;
+}
+.mail {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.border {
+  border: 5px solid #F0EBD8;
+}
+div img.border {
+  width: 93%;
+}
+#myphoto {
+  border-radius: 26px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+	header{
+		background-size: cover;
+		background-position: 0 55%;
+	}
+  #myphoto {
+    float: right;
+    width: 25%;
+    margin: 16% auto 0;
+  }
+
+
+  #two{
+    float: left;
+    width: 61%;
+    padding-top: 11%;
+  }
+  
+  #courses{
+  	float:right;
+  }
+
+  #three {
+    width: 45%;
+    margin: 0 0 0 5%;
+    vertical-align: top;
+  }
+  .owl-carousel {
+    width: 45%;
+    display: inline-block !important;
+  }
+
+  .owl-carousel .owl-carousel img {
+  	margin-bottom: 1.5em;
+  	max-width: 600px;
+  }
+
+  h3{
+  	height: 2em;
+  }
+
+  .portfolio{
+  	display:flex;
+  	flex-flow: row wrap;
+  }
+
+  figure {
+    margin: 0 5% 15% 0;
+  }
+
+  figure div {
+    max-height: 215px;
+  }
+
+  article{
+  	max-width: 48%;
+  	padding-right: 2%;
+  }
+}
+
+
